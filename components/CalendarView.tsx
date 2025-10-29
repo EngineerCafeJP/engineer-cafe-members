@@ -1,7 +1,7 @@
 
 import dayGridPlugin from '@fullcalendar/daygrid';
-import timeGridPlugin from '@fullcalendar/timegrid';
 import FullCalendar from '@fullcalendar/react';
+import timeGridPlugin from '@fullcalendar/timegrid';
 import ICAL from 'ical.js';
 import React, { useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -97,6 +97,13 @@ const CalendarView: React.FC = () => {
             events={events}
             height="100%"
             locale={i18n.language}
+            views={{
+              timeGridWeek: {
+                // モバイルでの重なり回避のため、週ビューの列ヘッダを短くする
+                // 例: "10/24" のみ表示（曜日は省略）
+                dayHeaderFormat: { month: 'numeric', day: 'numeric' }
+              }
+            }}
             headerToolbar={{
               left: 'prev,next today',
               center: 'title',

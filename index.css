@@ -35,3 +35,23 @@
 .fc-button-active {
   background-color: #16a34a !important; /* green-600 */
 }
+
+/* --- Responsive fixes for FullCalendar header overlap on mobile --- */
+@media (max-width: 480px) {
+  /* 列ヘッダーの文字が隣列に食い込まないように、折返し禁止＋省略 */
+  .fc .fc-col-header-cell-cushion {
+    font-size: 11px;
+    padding: 4px 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+  /* 時間軸を少し狭めて、日付列に幅を割り当てる */
+  .fc .fc-timegrid-axis {
+    width: 34px !important;
+  }
+  .fc .fc-timegrid-slot-label {
+    font-size: 10px;
+  }
+}
