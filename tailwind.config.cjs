@@ -2,6 +2,7 @@ module.exports = {
   content: [
     './index.html',
     './**/*.{ts,tsx,html}',
+    '!./node_modules/**/*',
   ],
   theme: {
     extend: {
