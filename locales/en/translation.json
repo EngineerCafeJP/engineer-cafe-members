@@ -1,0 +1,23 @@
+
+{
+  "headerTitle": "Engineer Cafe Member Profiles & Attendance",
+  "calendarError": "Failed to load attendance data. Please check the iCal URL or your network connection.",
+  "calendarLoading": "Loading calendar...",
+  "footerText": "Powered by Google AI Studio & GitHub Copilot",
+  "quickLinks": {
+    "sectionAria": "External links",
+    "consultation": "Book a free consultation",
+    "consultationDesc": "Reserve a slot with our mentors/community managers",
+    "events": "See upcoming events",
+    "eventsDesc": "Events hosted or co-hosted by Engineer Cafe",
+    "openExternal": "Open"
+  },
+  "roles": {
+    "Hacker Supporter": "Hacker Supporter",
+    "Community Manager": "Community Manager",
+    "Staff": "Staff"
+  },
+  "attendance": "Attendance",
+  "showMore": "Show More",
+  "showLess": "Show Less"
+}

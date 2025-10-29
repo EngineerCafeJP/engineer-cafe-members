@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FullCalendar custom styles for dark theme */
+:root {
+  --fc-border-color: #374151; /* gray-700 */
+  --fc-daygrid-event-dot-width: 8px;
+  --fc-list-event-dot-width: 10px;
+  --fc-event-bg-color: #10B981; /* emerald-500 */
+  --fc-event-border-color: #059669; /* emerald-600 */
+  --fc-event-text-color: #ffffff;
+  --fc-day-bg-color: #000000;
+  --fc-today-bg-color: rgba(34, 197, 94, 0.15); /* green-500 with opacity */
+  --fc-page-bg-color: #000000;
+  --fc-neutral-bg-color: #1f2937; /* gray-800 */
+}
+.fc-daygrid-day-number, .fc-col-header-cell-cushion {
+  color: #d1d5db; /* gray-300 */
+}
+.fc-day-other .fc-daygrid-day-top {
+  opacity: 0.5;
+}
+.fc-toolbar-title {
+  color: #ffffff;
+}
+.fc-button-primary {
+  background-color: #374151 !important; /* gray-700 */
+  border-color: #4b5563 !important; /* gray-600 */
+  color: #ffffff !important;
+}
+.fc-button-primary:hover {
+  background-color: #4b5563 !important; /* gray-600 */
+}
+.fc-button-active {
+  background-color: #16a34a !important; /* green-600 */
+}

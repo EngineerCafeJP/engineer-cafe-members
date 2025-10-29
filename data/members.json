@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "avatarUrl": "/avatar-placeholder.svg",
+    "name": {
+      "ja": "佐藤 あきら",
+      "en": "Akira Sato"
+    },
+    "role": {
+      "ja": "ハッカーサポーター",
+      "en": "Hacker Supporter"
+    },
+    "bio": {
+      "ja": "フロントエンドのエキスパート。`React`と`Vue`が得意です。\n\n- **スキル**: TypeScript, GraphQL, Next.js\n- **趣味**: オープンソースへの貢献",
+      "en": "Frontend expert, specializing in `React` and `Vue`.\n\n- **Skills**: TypeScript, GraphQL, Next.js\n- **Hobbies**: Contributing to open source"
+    }
+  },
+  {
+    "id": 3,
+    "avatarUrl": "/avatar-placeholder.svg",
+    "name": {
+      "ja": "寺田康佑",
+      "en": "Kosuke Terada"
+    },
+    "role": {
+      "ja": "コミュニティマネージャー",
+      "en": "Community Manager"
+    },
+    "tags": {
+      "ja": [
+        "#AI駆動開発",
+        "#未経験エンジニア",
+        "#エンジニア起業"
+      ],
+      "en": [
+        "#AIDrivenDevelopment",
+        "#BeginnerEngineer",
+        "#EngineerStartup"
+      ]
+    },
+    "bio": {
+      "ja": "AI活用による業務効率化、異業種からのエンジニア転職、起業相談、技術発信サポートなど、実体験をもとにした相談対応が得意。\nお気軽にお声がけください!",
+      "en": "Specializes in consultations based on personal experience, including improving business efficiency through AI utilization, career changes to engineering from different industries, startup consultations, and technology dissemination support.\nFeel free to reach out!"
+    }
+  },
+  {
+    "id": 5,
+    "avatarUrl": "/avatar-placeholder.svg",
+    "name": {
+      "ja": "高橋 けんじ",
+      "en": "Kenji Takahashi"
+    },
+    "role": {
+      "ja": "スタッフ",
+      "en": "Staff"
+    },
+    "bio": {
+      "ja": "オフィスの運営とサポート全般を担当。何か困ったことがあれば、いつでも声をかけてください。",
+      "en": "Responsible for general office operations and support. If you need anything, feel free to ask anytime."
+    }
+  },
+  {
+    "id": 2,
+    "avatarUrl": "/avatar-placeholder.svg",
+    "name": {
+      "ja": "田中 雄大",
+      "en": "Yudai Tanaka"
+    },
+    "role": {
+      "ja": "ハッカーサポーター",
+      "en": "Hacker Supporter"
+    },
+    "bio": {
+      "ja": "バックエンドとインフラのスペシャリスト。`Go`と`Kubernetes`に情熱を注いでいます。\n\n### 主な実績\n1. パフォーマンス改善\n2. CI/CDパイプライン構築",
+      "en": "Backend and infrastructure specialist. Passionate about `Go` and `Kubernetes`.\n\n### Key Achievements\n1. Performance improvements\n2. CI/CD pipeline construction"
+    }
+  },
+  {
+    "id": 4,
+    "avatarUrl": "/avatar-placeholder.svg",
+    "name": {
+      "ja": "山田美穂",
+      "en": "Miho Yamada"
+    },
+    "role": {
+      "ja": "コミュニティマネージャー",
+      "en": "Community Manager"
+    },
+    "tags": {
+      "ja": [
+        "#IoTシュフ",
+        "#STEAM教育",
+        "#試作品",
+        "#コミュニティ",
+        "#勉強会",
+        "#CAD",
+        "#イベント"
+      ],
+      "en": [
+        "#IoTMaker",
+        "#STEAMEducation",
+        "#Prototype",
+        "#Community",
+        "#StudyGroup",
+        "#CAD",
+        "#Event"
+      ]
+    },
+    "bio": {
+      "ja": "可愛い電子工作系コミュニティ『CuteeWorks（キューティーワークス）』を主催しています。\n\n面白いことが大好きなので何か楽しいイベントがしたい時はお声がけください!",
+      "en": "I organize the cute electronics crafting community 'CuteeWorks'.\n\nI love interesting things, so please let me know if you want to hold a fun event!"
+    }
+  }
+]
